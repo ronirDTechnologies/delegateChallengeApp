@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB2D95561B10AD5B0002C08A /* ZipCodeFieldTextDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2D95551B10AD5B0002C08A /* ZipCodeFieldTextDelegate.swift */; };
 		BB3377691B0AA34D00B01317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3377681B0AA34D00B01317 /* AppDelegate.swift */; };
 		BB33776B1B0AA34D00B01317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB33776A1B0AA34D00B01317 /* ViewController.swift */; };
 		BB33776E1B0AA34D00B01317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB33776C1B0AA34D00B01317 /* Main.storyboard */; };
 		BB3377701B0AA34D00B01317 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB33776F1B0AA34D00B01317 /* Images.xcassets */; };
 		BB3377731B0AA34D00B01317 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3377711B0AA34D00B01317 /* LaunchScreen.xib */; };
 		BB33777F1B0AA34D00B01317 /* RoniR_DelegateChallengeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB33777E1B0AA34D00B01317 /* RoniR_DelegateChallengeAppTests.swift */; };
+		BB8D49F61B1CEE1E00CC0083 /* CashCodeFieldTextDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8D49F51B1CEE1E00CC0083 /* CashCodeFieldTextDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB2D95551B10AD5B0002C08A /* ZipCodeFieldTextDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeFieldTextDelegate.swift; sourceTree = "<group>"; };
 		BB3377631B0AA34D00B01317 /* RoniR_DelegateChallengeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoniR_DelegateChallengeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3377671B0AA34D00B01317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB3377681B0AA34D00B01317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		BB3377781B0AA34D00B01317 /* RoniR_DelegateChallengeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoniR_DelegateChallengeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB33777D1B0AA34D00B01317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB33777E1B0AA34D00B01317 /* RoniR_DelegateChallengeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoniR_DelegateChallengeAppTests.swift; sourceTree = "<group>"; };
+		BB8D49F51B1CEE1E00CC0083 /* CashCodeFieldTextDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashCodeFieldTextDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB2D95541B10AD3B0002C08A /* TextFieldDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				BB2D95551B10AD5B0002C08A /* ZipCodeFieldTextDelegate.swift */,
+				BB8D49F51B1CEE1E00CC0083 /* CashCodeFieldTextDelegate.swift */,
+			);
+			name = TextFieldDelegates;
+			sourceTree = "<group>";
+		};
 		BB33775A1B0AA34D00B01317 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +90,7 @@
 		BB3377651B0AA34D00B01317 /* RoniR_DelegateChallengeApp */ = {
 			isa = PBXGroup;
 			children = (
+				BB2D95541B10AD3B0002C08A /* TextFieldDelegates */,
 				BB3377681B0AA34D00B01317 /* AppDelegate.swift */,
 				BB33776A1B0AA34D00B01317 /* ViewController.swift */,
 				BB33776C1B0AA34D00B01317 /* Main.storyboard */,
@@ -212,8 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2D95561B10AD5B0002C08A /* ZipCodeFieldTextDelegate.swift in Sources */,
 				BB33776B1B0AA34D00B01317 /* ViewController.swift in Sources */,
 				BB3377691B0AA34D00B01317 /* AppDelegate.swift in Sources */,
+				BB8D49F61B1CEE1E00CC0083 /* CashCodeFieldTextDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +425,7 @@
 				BB3377841B0AA34D00B01317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB3377851B0AA34D00B01317 /* Build configuration list for PBXNativeTarget "RoniR_DelegateChallengeAppTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +434,7 @@
 				BB3377871B0AA34D00B01317 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
